@@ -32,9 +32,9 @@ function numEvenOdd(num) {
     case(num % 2 == 1):
       console.log("odd");
       break;
-      case(num == 0):
-        console.log("even");
-        break;
+    case(num == 0):
+      console.log("even");
+      break;
     case(num < 0):
       console.log("invalid number");
       break;
