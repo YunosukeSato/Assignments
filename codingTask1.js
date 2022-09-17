@@ -8,7 +8,7 @@ function studentGrade(score) {
     case(score >= 70):
       console.log("passed");
       break;
-    case(score < 70 && score > 0):
+    case(score > 0):
       console.log("failed");
       break;
     case(score <= 0):
@@ -20,7 +20,7 @@ function studentGrade(score) {
   };
 }
 
-studentGrade(100)
+studentGrade(50)
 
 // Task 2
 
