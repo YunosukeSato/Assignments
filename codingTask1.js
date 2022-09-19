@@ -78,7 +78,7 @@ function personAge(age) {
   };
 }
 
-personAge(19)
+personAge(19);
 
 // Task 5
 
