@@ -1,20 +1,20 @@
 // Task 1
-// let MatScore = 80;
-// let SimonScore = 45;
-// let lowerLimit = 51;
+let MatScore = 80;
+let SimonScore = 45;
+let lowerLimit = 51;
 
-// if(MatScore >= 51 && SimonScore >= 51) {
-//   console.log(`Mat's score is ${MatScore}, Simon's score is ${SimonScore}`);
-// }else if(MatScore >= 51 || SimonScore >= 51) {
-//   console.log(`Mat's score is ${MatScore}, Simon's score is ${SimonScore}`);
-//   if(MatScore >= 51) {
-//     console.log(`Mat is passed. His score is ${MatScore}.`);
-//   }else if(SimonScore >= 51) {
-//     console.log(`Simon is passed. His score is ${SimonScore}.`);
-//   }
-// }else{
-//   console.log('Both students are failed');
-// };
+if(MatScore >= 51 && SimonScore >= 51) {
+  console.log(`Mat's score is ${MatScore}, Simon's score is ${SimonScore}`);
+}else if(MatScore >= 51 || SimonScore >= 51) {
+  console.log(`Mat's score is ${MatScore}, Simon's score is ${SimonScore}`);
+  if(MatScore >= 51) {
+    console.log(`Mat is passed. His score is ${MatScore}.`);
+  }else if(SimonScore >= 51) {
+    console.log(`Simon is passed. His score is ${SimonScore}.`);
+  }
+}else{
+  console.log('Both students are failed');
+};
 
 // Task 2
 let students = [
