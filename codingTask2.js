@@ -24,8 +24,8 @@ let students = [
   ['Alex', 44, 45]
 ]
 
-let degrees = ['A', 'B', 'C', 'D', 'E'];
-let passingLimit = [91, 81, 71, 61, 51];
+const degrees = ['A', 'B', 'C', 'D', 'E'];
+const passingLimit = [91, 81, 71, 61, 51];
 
 function culcTotal(name, score1, score2) {
     let totalScore = score1 + score2;
