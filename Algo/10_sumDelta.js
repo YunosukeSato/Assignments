@@ -8,7 +8,7 @@
 const sumDelta = (arr) => {
   let delta = 0;
   for (let i = 0; i < arr.length - 1; i++) {
-    delta = delta + Math.abs(arr[i] - arr[i + 1]);
+    delta += Math.abs(arr[i] - arr[i + 1]);
   }
   console.log(delta);
 };
