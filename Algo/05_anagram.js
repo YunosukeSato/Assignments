@@ -10,7 +10,7 @@ const anagram = (str1, str2) => {
 };
 
 const sortStr = (str) => {
-  return str.replace(/[~¥w]/g).toLowerCase().split('').sort().join('');
+  return str.replace(/[¥w]/g).toLowerCase().split('').sort().join('');
 };
 
 console.log(anagram('dog', 'dog'));
