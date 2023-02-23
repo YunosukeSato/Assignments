@@ -41,18 +41,18 @@ async function sendHttpRequest(method, url, data) {
 }
 
 async function fetchPosts() {
-  const responseData = await sendHttpRequest('GET', 'https://jsonplaceholder.typicode.com/posts');
+  const responseData = await sendHttpRequest('GET', 'http://localhost:8080/api/cart/items');
 
   console.log(responseData);
-  if (responseData.length > 0) {
-    for (const post of responseData) {
-      const postElClone = document.importNode(postTemplate.content, true);
-      postElClone.querySelector('h2').textContent = post.title;
-      postElClone.querySelector('p').textContent = post.body;
-      postElClone.querySelector('li').id = post.id;
-      listElement.appendChild(postElClone);
-    }
-  }
+  // if (responseData.length > 0) {
+  //   for (const post of responseData) {
+  //     const postElClone = document.importNode(postTemplate.content, true);
+  //     postElClone.querySelector('h2').textContent = post.title;
+  //     postElClone.querySelector('p').textContent = post.body;
+  //     postElClone.querySelector('li').id = post.id;
+  //     listElement.appendChild(postElClone);
+  //   }
+  // }
 }
 
 async function addPost(title, content) {
